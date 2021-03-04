@@ -1,0 +1,310 @@
+body {
+    background-image: linear-gradient(-136deg, #F5F7FA 0%, #F4F6F8 100%);
+    font-family: "PT Sans", sans-serif;
+  }
+  
+  .join-section {
+    position: relative;
+  }
+  .join-section .container {
+    position: relative;
+    z-index: 5;
+  }
+  .join-section .container .top-divider {
+    padding-top: 35px;
+  }
+  .join-section .container .logo {
+    padding: 40px 0;
+    z-index: 10;
+    position: relative;
+  }
+  @media screen and (max-width: 767px) {
+    .join-section .container .logo {
+      display: none;
+    }
+  }
+  .join-section .head-color {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 210px;
+    z-index: 1;
+    background-image: linear-gradient(-201deg, #6A79DD 0%, #5866C3 100%);
+  }
+  @media screen and (max-width: 767px) {
+    .join-section .head-color {
+      height: 80px;
+    }
+  }
+  .join-section .powered {
+    padding-bottom: 10px;
+  }
+  
+  .join-section.join-little-landing .container .top-divider {
+    padding-top: 0;
+    padding-top: 10px;
+  }
+  .join-section.join-little-landing .container .logo {
+    display: none;
+  }
+  .join-section.join-little-landing .head-color {
+    height: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    .join-section.join-little-landing .head-color {
+      height: 30px;
+    }
+  }
+  
+  .little-landing-row .little-landing-card {
+    padding-bottom: 20px;
+  }
+  .little-landing-row .little-landing-card .ava {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 767px) {
+    .little-landing-row .little-landing-card .ava {
+      width: 32%;
+      margin-bottom: 10px;
+    }
+  }
+  .little-landing-row .little-landing-card .ava::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  .little-landing-row .little-landing-card h1 {
+    font-size: 56px;
+    color: #42505C;
+    text-align: left;
+  }
+  @media screen and (max-width: 767px) {
+    .little-landing-row .little-landing-card h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .little-landing-row .little-landing-card h1 {
+      font-size: 32px;
+    }
+  }
+  
+  /*!!!!*/
+  .little-landing-row .little-landing-card h2 {
+    font-size: 40px;
+    color: #42505C;
+    text-align: left;
+  }
+  @media screen and (max-width: 767px) {
+    .little-landing-row .little-landing-card h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .little-landing-row .little-landing-card h2 {
+      font-size: 32px;
+    }
+  }
+  /*!!!!*/
+  
+  .little-landing-row .little-landing-card p {
+    font-size: 26px;
+    line-height: 24px;
+    color: #79828B;
+    text-align: left;
+  }
+  @media screen and (max-width: 767px) {
+    .little-landing-row .little-landing-card p {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .little-landing-row .little-landing-card p {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  
+  .soc-cards-row .soc-href-card {
+    background: #FFFFFF;
+    box-shadow: 0 36px 43px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /* min-height: 222px; */
+    padding: 41px 21px;
+    margin-bottom: 15px;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    transition: 0.3s linear;
+    position: relative;
+    z-index: 12;
+  }
+  @media screen and (max-width: 520px) {
+    .soc-cards-row .soc-href-card {
+      padding: 16px 14px;
+    }
+  }
+  .soc-cards-row .soc-href-card .absolute-href {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 13;
+  }
+  .soc-cards-row .soc-href-card .card-img {
+    text-align: center;
+  }
+  .soc-cards-row .soc-href-card .card-img img {
+    width: 60%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    .soc-cards-row .soc-href-card .card-img img {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .soc-cards-row .soc-href-card .card-img img {
+      width: 70%;
+    }
+  }
+  .soc-cards-row .soc-href-card .card-img.card-img-real-size img {
+    width: 90%;
+    border-radius: unset;
+  }
+  .soc-cards-row .soc-href-card .card-name p {
+    font-size: 42px;
+    color: #FFFFFF;
+    letter-spacing: -0.35px;
+    display: block;
+    margin: 0;
+    line-height: 35px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+  }
+  @media screen and (max-width: 767px) {
+    .soc-cards-row .soc-href-card .card-name p {
+      font-size: 36px;
+      line-height: 30px;
+      padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .soc-cards-row .soc-href-card .card-name p {
+      font-size: 26px;
+      line-height: 24px;
+    }
+  }
+  .soc-cards-row .soc-href-card .card-name span {
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: -0.35px;
+    display: block;
+    position: relative;
+    line-height: 24px;
+    /* z-index: 14; */
+  }
+  @media screen and (max-width: 767px) {
+    .soc-cards-row .soc-href-card .card-name span {
+      font-size: 24px;
+      line-height: 22px;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .soc-cards-row .soc-href-card .card-name span {
+      font-size: 18px;
+      line-height: 16px;
+    }
+  }
+  .black-letters {
+    color: #000000;
+  }
+  .soc-cards-row .soc-href-card-vk {
+    background-image: linear-gradient(134deg, #649CD6 0%, #19436F 100%);
+  }
+  .soc-cards-row .soc-href-card-tg {
+    background-image: linear-gradient(134deg, #92D9FF 0%, #2A6BF7 100%);
+  }
+  .soc-cards-row .soc-href-card-twitter {
+    background-image: linear-gradient(134deg, #92D9FF 0%, #2A6BF7 100%);
+  }
+  .soc-cards-row .soc-href-card-twitter-status {
+    background-image: linear-gradient(134deg, #92D9FF 0%, #2A6BF7 100%);
+  }
+  .soc-cards-row .soc-href-card-viber {
+    background-image: linear-gradient(134deg, #AD92F9 0%, #4C2FAD 100%);
+  }
+  .soc-cards-row .soc-href-card-whatsapp {
+    background-image: linear-gradient(134deg, #B6F8CF 0%, #007B2E 100%);
+  }
+  .soc-cards-row .soc-href-card-instagram {
+    background-image: linear-gradient(48deg, #FAD272 0%, #DF3A6C 49%, #913DC1 100%);
+  }
+  .soc-cards-row .soc-href-card-facebook {
+    background-image: linear-gradient(134deg, #7DABE8 0%, #0C4B9C 100%);
+  }
+  .soc-cards-row .soc-href-card-default {
+    background-image: linear-gradient(134deg, #99A2E3 0%, #26359A 100%);
+  }
+  .soc-cards-row .soc-href-card-qr-link {
+    background-image: linear-gradient(134deg, #FFFFFF 0%, #FFFFFF 100%);
+  }
+  .soc-cards-row .soc-href-card-youtube {
+    background-image: linear-gradient(134deg, #E36C6F 0%, #891115 100%);
+  }
+  .soc-cards-row .soc-href-card-skype {
+    background-image: linear-gradient(134deg, #54A4E4 0%, #0078D7 100%);
+  }
+  .soc-cards-row .soc-href-card-linkedin {
+    background-image: linear-gradient(134deg, #6494CD 0%, #2867B2 100%);
+  }
+  .soc-cards-row .soc-href-card-wildberries {
+    background-image: linear-gradient(134deg, #EC238D 0%, #7D256F 100%);
+  }
+  .soc-cards-row .soc-href-card-2gis {
+    background-image: linear-gradient(134deg, #78b93e 0%, #f9ec00 100%);
+  }
+  .soc-cards-row .soc-href-card-yandex-map {
+    background-image: linear-gradient(134deg, #ec543f 0%, #ec543f 100%);
+  }
+  .soc-cards-row .soc-href-card-google-maps {
+    background-image: linear-gradient(134deg, #48b564 0%, #5695f6 100%);
+  }
+  .soc-cards-row .soc-href-card-maps {
+    background-image: linear-gradient(134deg, #E36C6F 0%, #891115 100%);
+  }
+  .soc-cards-row .soc-href-card-yandex-navi {
+    background-image: linear-gradient(134deg, #ffd52e 0%, #ffdd57 100%);
+  }
+  .soc-cards-row .soc-href-card-app-markets {
+    background-image: linear-gradient(134deg, #5277A8 0%, #081C35 100%);
+  }
+  .soc-cards-row .soc-href-card-tik-tok {
+    background-image: linear-gradient(134deg, #000000 0%, #000000 100%);
+  }
+  .soc-cards-row .soc-href-card-tik-tok-post {
+    background-image: linear-gradient(134deg, #000000 0%, #000000 100%);
+  }
+  .soc-cards-row .soc-href-card-only-header .card-name p {
+    padding: 12px 0;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
